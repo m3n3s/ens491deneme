@@ -111,6 +111,8 @@ void depthFirstSearch() {
 
 int main() {
    int i, j;
+   
+   int enes, simay, ens491, pain;
 
    for(i = 0; i < MAX; i++)    // set adjacency {
       for(j = 0; j < MAX; j++) // matrix to 0
@@ -133,5 +135,7 @@ int main() {
    printf("Depth First Search: ")
    depthFirstSearch(); 
 
-   return 0;   
+   printf("ffff");
+
+   return (0);   
 }
