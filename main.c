@@ -77,6 +77,10 @@ int getAdjUnvisitedVertex(int vertexIndex) {
    return -1;
 }
 
+void whatIsThis(char* a) {
+   printf("This is a ", a);
+}
+
 void depthFirstSearch() {
    int i;
 
@@ -110,6 +114,9 @@ void depthFirstSearch() {
 }
 
 int main() {
+   char* a = "pencil";
+   whatIsThis(a);
+   
    int i, j;
    
    int enes, simay, ens491, pain;
